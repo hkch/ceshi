@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+body {
+	color:#25272B;
+	background-color:#EBEDF0;
+	font-family:"open sans","微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:"open sans","微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+pre code { background: transparent; }
+a {
+	color:#333333;
+}
+a:hover , a:focus {
+	color:#0072C6;
+}
+/*HEADER*/
+#header {
+	height:65px;
+	background-color: #ffffff;
+	padding: 10px 0;
+	margin-bottom:20px;
+}
+.o_icon {
+	width:45px;
+	height:45px;
+}
+
+/*MAIN*/
+#main p{
+	text-indent: 2em;
+}
+.main_top {
+	margin-top:10px;
+}
+	/*BANNER*/
+.top {
+	padding:20px 39.5% 85px;
+	background-color:#DA4410;
+}
+.top_list{
+	background:#5133AB;
+	padding:13px 120px 0;
+}
+.top_list li{
+	display:inline-block;
+	width:280px;
+	margin:0 5px 10px;
+}
+.word_c {
+	background-color: #00188F;
+}
+.excel_c {
+	background-color: #007233;
+}
+.powerpoint_c {
+	background-color: #DD5900;
+}
+.outlook_c {
+	background-color: #0072C6;
+}
+.project_c {
+	background-color: #2e7237;
+}
+.access_c {
+	background-color: #BA141A;
+}
+.visio_c {
+	background-color: #37549d;
+}
+.infopath_c {
+	background-color: #683785;
+}
+.publisher_c {
+	background-color: #008272;
+}
+.onenote_c {
+	background-color: #68217A;
+}
+/*BANNER END*/
+.top h1{
+	color:#ffffff;
+}
+.top_main ul li{
+	list-style:none;
+}
+ 
+.top_ct {
+	background-color:#00188F;
+}
+.top_rt {
+	background-color:#DD5900;
+}
+ 
+.top_lt h2, .top_ct h2, .top_rt h2 {
+	font-size:22px;
+}
+.more {
+	position:absolute;
+	top:45px;
+	right:30px;
+}
+.more a{
+	color:#ffffff;
+}
+.more a:hover ,.more a:focus {
+	color:#0072C6;
+}
+.copyright {
+	text-align:center;
+}
+#footer ul li {
+	list-style: none;
+}
+/*RESET*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color:#ffffff;
+	background-color:#0072C6;
+}
+
+.nav .open > a:hover, .nav .open > a:focus {
+	color:#ffffff;
+	background-color:#0072C6;
+}
+.navbar {
+	background-color: #ffffff;
+	padding: 10px 0 5px 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+	padding: 0;
+}
+blockquote {
+    border-left: 5px solid #FFFFFF;
+}
+.nav > li > a {
+    display: block;
+    padding:18px 15px;
+    position: relative;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.breadcrumb {
+	margin-bottom:0px;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}

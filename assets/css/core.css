@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6{text-align:center}
+.text-center{text-align:center}
+.thumbnail p{line-height:30px;}
+.title-img{font-family:Î¢ÈíÑÅºÚ;line-height:20px;color:black}
+
+
+
+
+
+/*bootstrap*/
+.thumbnails > li{margin-left:10px;}
+p{margin:0 }
+
+a:hover, a:focus {
+color: #005580;
+text-decoration: underline;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:14px;
+}

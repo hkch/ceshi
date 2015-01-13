@@ -1,0 +1,17 @@
+.title{font-size: 16px;color:black;margin-left: 20px;}
+.top_lt{background:url('../testimg/3.jpg'); }
+.top_lt , .top_ct , .top_rt {
+	color:#ffffff;
+	border-bottom: 1px solid #D7DDE6;
+	text-shadow: 0 1px 1px #333333;
+	padding: 10px;
+	border-radius:none;
+
+}
+
+
+
+
+/*bootstrap 扩展*/
+.badge a{color:white;line-height: 17px;}
+.list-group-item{padding: 5px 15px;}
